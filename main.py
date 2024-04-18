@@ -9,7 +9,7 @@ import scipy
 import matplotlib.pyplot as plt
 import sympy
 import sklearn
-DS = pd.read_csv('C:/Users/DELL/Desktop/StressLevelDataset.csv')
+DS = pd.read_csv('StressLevelDataset.csv')
 
 
 st.title('STUDENT STRESS PREDICTION ')
@@ -17,14 +17,12 @@ st.sidebar.header('STUDENT DATA')
 
 st.subheader('DEPRESSION LEVEL')
 
-#st.bar_chart(DS)
-# Create a bar chart for stress level
+
 fig, ax = plt.subplots(figsize=(5,3))
 mental_health_history_chart = DS['depression'].value_counts().plot(kind='bar')
 
 plt.xlabel('Depression level')
 plt.ylabel('Count')
-#plt.title('Mental Health History Distribution')
 
 
 
