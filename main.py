@@ -6,7 +6,6 @@ import ipywidgets
 import qiskit_aer
 import scipy
 import matplotlib.pyplot as plt
-import sympy
 import sklearn
 DS = pd.read_csv('StressLevelDataset.csv')
 
