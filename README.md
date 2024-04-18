@@ -34,10 +34,5 @@ This project aims to predict the stress levels of students using quantum-inspire
 3. Interact with the sidebar to input your own attributes and receive a prediction of your stress level.
 
 ## Contributors
-- [Gomathi](link to your GitHub profile)
+- [Gomathi](https://github.com/GomathiR362)
 
-## License
-This project is licensed under the [MIT License](link to license file).
-```
-
-Feel free to customize this template according to your project's specific details and requirements.
