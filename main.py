@@ -4,7 +4,6 @@ import qiskit
 import pylatexenc
 import ipywidgets
 import qiskit_aer
-import numpy as np
 import scipy
 import matplotlib.pyplot as plt
 import sympy
